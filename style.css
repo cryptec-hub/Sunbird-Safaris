@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* header section */
+
+#preloader {
+    background: rgb(209, 200, 200) url(images/output-onlinegiftools.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.overlay {
+    background: #000;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 30px;
+}
+
+.header .overlay {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+.header img {
+    width: 110px;
+    float: left;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(250, 240, 240, 0.945));
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+}
+
+.get-in-touch-btn {
+    margin-left: 4px;
+    color: #fff;
+    width: 100px;
+    padding: 8px 0;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    transition: 1s;
+    float: right;
+}
+
+.get-in-touch-btn:hover {
+    background-image: linear-gradient(rgb(255, 233, 37), #fff);
+    color: black;
+}
+
+.header h1 {
+    padding-top: 170px;
+    padding-bottom: 0;
+    font-size: 55px;
+    font-family: 'Gill Sans';
+}
+
+.header p {
+    margin: 18px 0px;
+}
+
+.input-group {
+    width: 90% !important;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2pxs;
+}
+
+.form-control {
+    border: 0 !important;
+    border-radius: 30px!important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+.input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    margin-top: 2px;
+    margin-right: 2px;
+    border: 0 !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+
+
+/* features section */
+
+.features {
+    padding: 100px 0;
+}
+
+.features h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feature-img img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.feature-img:hover {
+    box-shadow: 5px 10px 8px #888888;
+    transform: scale(1.01);
+}
+
+.price {
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    font-size: 0.8rem;
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.price:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+
+.feature-img {
+    position: relative;
+}
+
+.rating {
+    padding: 3px;
+    float: right;
+    background: #fff;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    border-radius: 5px;
+}
+
+.rating .icon,
+.extras .icon {
+    font-size: 15px;
+    color: #ff5722;
+}
+
+.rating .icon {
+    cursor: pointer;
+}
+
+.feature-details {
+    padding: 20px;
+    text-align: justify;
+}
+
+.feature-details h4 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.extras .icon {
+    margin-right: 5px;
+}
+
+
+/* .destination-gallery */
+
+.destination-gallery {
+    text-align: center;
+    background: #fa774f;
+    padding: 100px 0;
+}
+
+.destination-gallery h1 {
+    padding-bottom: 40px;
+}
+
+.explore {
+    color: #fff;
+    width: 130px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+.explore:hover {
+    color: #000;
+    background: #fff;
+}
+
+.gallery-box img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-box h4 {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: -2px 2px 2px #000;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+/* banner */
+
+.banner {
+    height: 80%;
+}
+
+.banner .overlay {
+    padding-top: 145px;
+}
+
+.highlights {
+    padding: 70px 0;
+    background-color: rgba(170, 148, 148, 0.7);
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.booking-btn {
+    color: #fff;
+    width: 100px;
+    padding: 6px 0;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+.booking-btn:hover {
+    color: #000;
+    background: #fff;
+}
+
+
+/* users-feedback */
+
+.users-feedback {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.container {
+    padding-top: 25px;
+}
+
+.reviews {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.users-feedback .col-md-4 {
+    padding: 0 15px 50px 15px;
+}
+
+.reviews p {
+    padding: 50px 10px 10px 10px;
+}
+
+.reviews-jpg img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px;
+}
+
+.reviews p::before {
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+
+/* footer */
+
+.footer {
+    background-image: linear-gradient(#2d557d, #9610fb);
+    color: #fff;
+}
+
+.footer .overlay {
+    position: relative;
+    padding: 100px 20px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(#0000, #fff, #0000);
+    border-radius: 25%;
+}
+
+.footer h4 {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.footer p {
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+.footer .icon {
+    margin-right: 15px;
+}
+
+.footer hr {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: wheat;
+    transition: 1s;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #ff5722;
+}
+
+@media only screen and (max-width: 600px) {
+    #preloader {
+        background-size: 60%;
+    }
+}
